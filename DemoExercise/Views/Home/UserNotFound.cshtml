@@ -1,0 +1,18 @@
+﻿@model DemoExercise.Models.UserViewModel
+
+@{
+    ViewData["Title"] = "UserNotFound";
+}
+
+<h1>Error logging in...</h1>
+
+<hr />
+
+<h3>
+    <label class="font-weight-bold">Username: </label>
+    @Model.Username
+</h3>
+
+<div>
+    @Html.ActionLink("Back to Login", "Index")
+</div>

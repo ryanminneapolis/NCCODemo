@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoExercise.Interfaces\DemoExercise.Interfaces.csproj" />
+    <ProjectReference Include="..\DemoExercise.Models\DemoExercise.Models.csproj" />
+    <ProjectReference Include="..\DemoExercise.Repositories\DemoExercise.Repositories.csproj" />
+    <ProjectReference Include="..\DemoExercise.Services\DemoExercise.Services.csproj" />
+  </ItemGroup>
+
+</Project>
